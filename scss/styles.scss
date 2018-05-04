@@ -1,5 +1,12 @@
+
+// Config
+@import "./config/layout";
 @import "./config/variables";
 
+// Partials
 @import "./partials/general";
 @import "./partials/header";
 @import "./partials/titles";
+@import "./partials/menu";
+@import "./partials/about";
+@import "./partials/stats";

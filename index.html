@@ -6,44 +6,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Wheels - Flexbox Template</title>
     <link rel="stylesheet" type="text/css" media="screen" href="scss/styles.css" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,600,800,900" rel="stylesheet"> 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
   </head>
   <body>
     <main class="container">
       <header class="banner">
         <div class="bg-banner"></div>
-        <h1>Welcome To Wheels</h1>
-        <p>Your free PSD Template<br/>perfect for your next big idea<br/><em>by Powel Betkowski</em></p>
+        <div class="intro-text layout">
+          <h1>Welcome To Wheels</h1>
+          <p>Your free psd template<br/>perfect for your next big idea<br/><em>by Powel Betkowski</em></p>
+        </div>  
       </header><!-- /end header -->
 
-      <section>
-        <h2>Wheels</h2>
-        <nav>
-          <ul>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Products</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Our Team</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </nav>
-      </section><!-- /end section with menu-->
+      <section class="section-wrapper">
+        <div class="section-menu layout">
+          <h2>Wheels</h2>
+          <nav>
+            <ul class="menu">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Products</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Our Team</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+        </div><!-- /end section with menu-->
+      </section>  
 
-      <section>
-        <h2>About Us</h2>
-        <h3>Let's talk about what makes our company so great</h3>
-        <img src="assets/img/bike.png" alt="icon bike"/>
-        <p>Lorem ipsum dolor sit amet, consectetur adipsicing elit. Vestibulum sit amet odio molestie, rutrum lacus et, suscipit sem. Fusce eu tristique neque. Nullam in euismod magna. Vestibulum fermentum a dui non vulputate. Morbi hendreit rhoncus velit at pellentesque. Interdum et malescuaca fames ac ante ipsum primis in faucobus. Suspendisse quis sapien reque. Nunc pulvinar vel velit porttitor. Sed at sapien luctus nulla lobortis ullamcorper. Proin sit amet nulla quis libero dictum tempor eget in dui. Proin posuere eleifend vehicula.</p>
+      <section class="about">
+        <div class="about-content layout">
+          <h2 class="about-heading-two">About Us</h2>
+          <h3 class="about-heading-three">Let's talk about what makes our company great.</h3>
+          <img class="icon" src="assets/img/bike.png" alt="icon bike"/>
+          <p class="about-text">Lorem ipsum dolor sit amet, consectetur adipsicing elit. Vestibulum sit amet odio molestie, rutrum lacus et, suscipit sem. Fusce eu tristique neque. Nullam in euismod magna. Vestibulum fermentum a dui non vulputate. Morbi hendreit rhoncus velit at pellentesque. Interdum et malescuaca fames ac ante ipsum primis in faucobus. Suspendisse quis sapien reque. Nunc pulvinar vel velit porttitor. Sed at sapien luctus nulla lobortis ullamcorper. Proin sit amet nulla quis libero dictum tempor eget in dui. Proin posuere eleifend vehicula.</p>
+        </div>  
       </section><!-- /end section about us -->
 
-      <section>
-        <h2>Some statistics</h2>
-        <h3>Showing what your company already accomplished is always a good selling point</h3>
-        <div>
-          <p><span>409</span><br/>bikes sold</p>
-          <p><span>2012</span><br/>year the company started</p>
-          <p><span>0</span><br/>unsatisfied customers</p>
+      <section class="stats">
+        <h2 class="stats-heading-two">Some statistics</h2>
+        <h3 class="stats-heading-three">Showing what your company already accomplished is always a good selling point</h3>
+        <div class="stats-details">
+          <p class="stats-inner"><span>409</span><br/>bikes sold</p>
+          <p class="stats-inner"><span>2012</span><br/>year the company started</p>
+          <p class="stats-inner"><span>0</span><br/>unsatisfied customers</p>
         </div>
       </section><!-- /end section statistics -->
 

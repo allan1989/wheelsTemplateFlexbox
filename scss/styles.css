@@ -89,7 +89,7 @@ h2 {
   .section-menu {
     /* display */
     justify-content: space-between; } }
-@media screen and (max-width: 902px) {
+@media screen and (max-width: 1198px) {
   .section-menu {
     /* display */
     flex-direction: column; }
@@ -174,7 +174,9 @@ h2 {
   display: flex;
   align-items: center;
   flex-direction: column; }
-  .stats-details .stats-inner span {
+  .stats-details .stats-inner .stats-inner-number {
     font-size: 72px; }
+  .stats-details .stats-inner .stats-inner-info {
+    font-size: 24px; }
 
 /*# sourceMappingURL=styles.css.map */

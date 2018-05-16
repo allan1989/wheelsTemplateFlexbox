@@ -59,10 +59,12 @@ h1 {
 
 h2 {
   font-size: 30px;
+  letter-spacing: 4px;
   text-transform: uppercase; }
 
 h3 {
-  font-size: 18px; }
+  font-size: 18px;
+  letter-spacing: 2px; }
 
 .section-wrapper {
   box-shadow: 0 2px 18px -1px grey; }
@@ -249,5 +251,52 @@ h3 {
 @media screen and (max-width: 400px) {
   .featured-product-photo {
     flex-basis: 60%; } }
+.team {
+  background-color: #ededed;
+  padding: 50px 0 60px 0;
+  /* display */
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.team-members {
+  margin-top: 55px;
+  width: calc(100% - 15%);
+  /* display */
+  display: inherit;
+  justify-content: space-evenly; }
+
+.team-member {
+  display: inherit;
+  flex-direction: column;
+  align-items: center; }
+
+.team-heading-two {
+  margin-bottom: 20px; }
+
+.team-heading-three {
+  font-weight: 600; }
+
+.team-member-name {
+  font-size: 32px;
+  margin: 35px 0 20px 0;
+  text-transform: uppercase; }
+
+.team-member-title {
+  letter-spacing: 3px;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+@media screen and (max-width: 800px) {
+  .team {
+    padding: 50px 10px; }
+
+  .team-members {
+    /* display */
+    flex-direction: column; }
+
+  .team-member {
+    margin-bottom: 40px; } }
 
 /*# sourceMappingURL=styles.css.map */

@@ -36,6 +36,12 @@
   }
 }
 
+@media screen and (max-width: 1537px){
+  .social-gallery{
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 1024px){
   .social-gallery{
     width: calc(100% - 20%);

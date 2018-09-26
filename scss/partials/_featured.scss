@@ -59,7 +59,6 @@
   font-weight: 100;
 }
 
-
 @media screen and (min-width: 1350px){
   .featured-products{
     width: 1345px;
@@ -75,6 +74,6 @@
 
 @media screen and (max-width: 400px){
   .featured-product-photo{
-    flex-basis: 60%;
+    width: 60%;
   }
 }

@@ -60,7 +60,8 @@ h1 {
 h2 {
   font-size: 30px;
   letter-spacing: 4px;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  text-align: center; }
 
 h3 {
   font-size: 18px;
